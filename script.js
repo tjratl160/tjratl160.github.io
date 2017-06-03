@@ -1,7 +1,7 @@
 document.getElementById("btn").onclick=change;
 
 function change() {
-	var exceptions=",?./ ;:'";
+	var exceptions=",?./ ;:'></[]{}@!@#$%^&*()_+=-1234567890*";
   var input = document.getElementById('myTextField').value;
   input=input.toLowerCase();
   var flag = true;
