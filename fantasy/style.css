@@ -1,6 +1,22 @@
+body{
+	text-align: center;
+	background: #d6cbd3;
+	font-size: 20px;
+	position: relative;
+}
+img{
+	height: 300px;
+	width: 500px;
+}
 #countup p {
+	font-size: 30px;
 	display: inline-block;
 	padding: 5px;
-	background: #FFA500;
 	margin: 0 0 20px;
+	background: #eca1a6;
+}
+#footer{
+	position: absolute;
+	bottom: 0px;
+	font-size: 10px;
 }
