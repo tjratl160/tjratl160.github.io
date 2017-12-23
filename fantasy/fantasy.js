@@ -22,7 +22,7 @@ function doSucks(){
   hour = hour % 12;
   var minuteStr;
   minuteStr = minute;
-  if(minute < 9){
+  if(minute <= 9){
     minuteStr="0"+minute.toString();
   }
 
