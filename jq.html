@@ -46,7 +46,7 @@ window.onload = function() {
 
 function doWork() {
     // ajax the JSON to the server
-    $.post("receiver", cars, function(){
+    $.post("http://127.0.0.1:5000/receiver", cars, function(){
 
     });
     // stop link reloading the page
